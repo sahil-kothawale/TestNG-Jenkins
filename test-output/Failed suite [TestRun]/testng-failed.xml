@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Failed suite [TestRun]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="uiTests(failed)(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.ui.test.UITestScenarios">
+        <methods>
+          <include name="TearDown"/>
+          <include name="visitCricBuzzSiteTest"/>
+          <include name="flipkartFlightBookTest" invocation-numbers="0"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.ui.test.UITestScenarios -->
+    </classes>
+  </test> <!-- uiTests(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [TestRun]] -->
